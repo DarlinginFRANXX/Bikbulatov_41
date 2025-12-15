@@ -29,7 +29,7 @@ namespace Bikbulatov41
             {
                 MinWidth = 1350;
                 MinHeight = 815;
-            };
+            }; 
         }
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)
