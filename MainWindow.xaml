@@ -8,7 +8,7 @@
         Title="41 Размер" Height="450" Width="800" FontFamily="Comic Sans MS" Icon="res/icon.ico">
 
     <Grid>
-
+ 
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
             <RowDefinition Height="*"/>

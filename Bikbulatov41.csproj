@@ -174,7 +174,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Товар_import\B320R5.jpg" />
     <Resource Include="Товар_import\D329H3.jpg" />
     <Resource Include="Товар_import\D572U8.jpg" />
     <Resource Include="Товар_import\F572H7.jpg" />
@@ -204,6 +203,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Товар_import\B320R51.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
