@@ -39,7 +39,7 @@ namespace Bikbulatov41
             {
                 if (ProductPhoto == null)
                     return null;
-
+                 
                 return "Товар_import/" + ProductPhoto;
             }
         }

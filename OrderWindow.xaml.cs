@@ -33,7 +33,7 @@ namespace Bikbulatov41
             this.selectedProducts = selectedProducts;
             this.currentUser = user;
             Loaded += delegate
-            {
+            { 
                 MinWidth = 1105;
                 MinHeight = 815;
             };

@@ -225,7 +225,7 @@ namespace Bikbulatov41
                 {
                     // Сбрасываем состояние заказа
                     ResetOrder();
-                }
+                } 
             }
             catch (Exception ex)
             {

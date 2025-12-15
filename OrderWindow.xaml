@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Оформление заказа" Height="1000" Width="1020" FontFamily="Comic Sans MS">
     <Grid>
-        <Grid.RowDefinitions>
+        <Grid.RowDefinitions> 
             <RowDefinition Height="40"/>
             <!-- для даты заказа -->
             <RowDefinition Height="40"/>
