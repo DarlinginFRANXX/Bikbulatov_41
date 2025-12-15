@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="367bf88c4f304ce5a5bb11d0c971b218" Name="Diagram1">
+        <EntityTypeShape EntityType="Bikbulatov41Model.Order" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bikbulatov41Model.OrderProduct" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bikbulatov41Model.PickUpPoint" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bikbulatov41Model.Product" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bikbulatov41Model.Role" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bikbulatov41Model.User" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="Bikbulatov41Model.FK_Order_PickUpPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="Bikbulatov41Model.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Bikbulatov41Model.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="Bikbulatov41Model.FK__OrderProd__Produ__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Bikbulatov41Model.FK__User__UserRole__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
