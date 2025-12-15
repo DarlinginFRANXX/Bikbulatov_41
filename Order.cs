@@ -19,7 +19,7 @@ namespace Bikbulatov41
         {
             this.OrderProduct = new HashSet<OrderProduct>();
         }
-    
+     
         public int OrderID { get; set; }
         public System.DateTime OrderDate { get; set; }
         public System.DateTime OrderDeliveryDate { get; set; }
